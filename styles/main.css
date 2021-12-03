@@ -13,7 +13,7 @@ nav {
   height: 100px;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 450px) {
   nav {
     height: 50px;
   }
@@ -70,7 +70,7 @@ nav {
   margin-bottom: 128.9rem;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 450px) {
   .hero {
     margin-bottom: 30.9rem;
   }
@@ -81,7 +81,7 @@ h1 {
   color: orange;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 450px) {
   h1 {
     text-align: center;
   }
@@ -92,7 +92,7 @@ h2 {
   color: orange;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 450px) {
   h2 {
     text-align: center;
   }
@@ -106,7 +106,7 @@ h2 {
   margin-bottom: 70%;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 450px) {
   .gatito img {
     margin-top: 50px;
     width: 30%;
@@ -126,7 +126,7 @@ span {
   height: 630rem;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 450px) {
   .contenido {
     height: 415rem;
   }
@@ -154,7 +154,7 @@ span {
   border-radius: 50px;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 450px) {
   .contenido__ul__li {
     height: 40rem;
   }
@@ -179,7 +179,7 @@ span {
   padding: 10px;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 450px) {
   .contenido__ul__li p {
     width: 70%;
     margin: 10px;
@@ -199,7 +199,7 @@ span {
           box-shadow: 5px 5px 5px 0px #ffc8c8, inset 4px 4px 15px 0px #ffc8c8, 5px 5px 15px 5px #ffc8c8;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 450px) {
   .contenido__ul__li iframe {
     width: 300px;
     height: 170px;
@@ -226,7 +226,7 @@ span {
   width: 200px;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 450px) {
   .contenido__ul__li__estrellas {
     margin-top: 20px;
   }
@@ -250,7 +250,7 @@ span {
   background-color: orange;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 450px) {
   .contacto {
     height: 50px;
   }
@@ -268,7 +268,7 @@ span {
   height: 100px;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 450px) {
   .contacto_ul {
     height: 50px;
   }
@@ -288,7 +288,7 @@ span {
   width: 70px;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 450px) {
   .instagram {
     width: 30px;
   }
@@ -749,7 +749,7 @@ body {
   height: 800rem;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 450px) {
   body {
     font-size: 70%;
     height: 90rem;
