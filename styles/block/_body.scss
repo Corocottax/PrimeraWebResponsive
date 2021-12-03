@@ -1,0 +1,162 @@
+//Hero
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    height: 100vh;
+    margin-bottom: 128.9rem;
+
+    @include movil {
+        margin-bottom: 30.9rem;
+    }
+}
+
+h1 {
+    font-size: 20vw;
+    color: $color-primario;
+
+    @include movil {
+        text-align: center;
+    }
+}
+
+h2 {
+    font-size: 20vw;
+    color: $color-primario;
+
+     @include movil {
+        text-align: center;
+    }
+}
+
+.gatito {
+
+    img {
+        margin-top: 100px;
+        width: 60%;
+        transform: rotate(180deg);
+        margin-bottom: 70%;
+
+        @include movil {
+            margin-top: 50px;
+            width: 30%;
+            margin-bottom: 50%;
+        }
+
+    }
+
+}
+
+span {
+    color: $color-secundario;
+}
+
+//Contenido
+
+.contenido {
+
+    color: orange;
+    background-color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+    width: 100%;
+    height: 630rem;
+
+    @include movil {
+        height: 415rem;
+    }
+}
+
+.contenido__ul__li {
+    margin-top: 500px;
+    height: 60rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+    box-shadow: 0px 10px 13px -7px #ffffff, 5px 5px 15px 5px rgba(255, 255, 255, 0);
+    border-radius: 50px;
+
+    @include movil {
+        height: 40rem;
+    }
+
+    h3 {
+
+        text-transform: uppercase;
+
+        &:hover {
+            color: white;
+        }
+    }
+
+    p {
+        color: orange;
+        text-align: center;
+        width: 30%;
+        margin: 3%;
+        letter-spacing: 5px;
+        border: 5px dotted white;
+        border-radius: 30px;
+        padding: 10px;
+
+        @include movil {
+            width: 70%;
+            margin: 10px;
+
+        }
+
+        &:hover {
+            color: white;
+            border-color: orange;
+        }
+    }
+
+    iframe {
+        margin: 10px;
+        border-radius: 50px;
+        border: 3px solid white;
+        box-shadow: 5px 5px 5px 0px #ffc8c8, inset 4px 4px 15px 0px #ffc8c8, 5px 5px 15px 5px #ffc8c8;
+
+        @include movil {
+            width: 300px;
+            height: 170px;
+        }
+
+        &:hover {
+            border-color: orange;
+            box-shadow: 5px 5px 5px 0px #ff8f0f, inset 4px 4px 15px 0px #ff8f0f, 5px 5px 15px 5px #ff8f0f;
+        }
+    }
+
+}
+
+.contenido__ul__li__estrellas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 200px;
+
+    @include movil {
+        margin-top: 20px;
+    }
+
+    p {
+        border-color: orange;
+        color: white;
+        width: 200px;
+        text-align: center;
+        margin-right: 30%;
+
+        &:hover {
+            border-color: white;
+            color: orange;
+        }
+    }
+
+}
+
+

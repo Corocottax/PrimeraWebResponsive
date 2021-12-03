@@ -1,0 +1,48 @@
+nav {
+    background-color: $color-primario;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+
+    @include movil {
+        height: 50px;
+    }
+
+}
+
+.navegador {
+
+    background-color: $color-primario;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .navegador-item {
+
+        padding: 1%;
+        background-color: $color-terciario;
+        border-radius: 25%;
+        border: 5px solid black;
+        font-size: 90%;
+        margin-right: 4.5%;
+        //@include flexComun;
+    
+        a {
+            text-decoration: none;
+            color: $color-secundario;
+        }
+    
+        &:hover {
+            color: $color-terciario;
+        }
+    
+    }
+
+    img {
+        width: 30%;
+    }
+
+}
+

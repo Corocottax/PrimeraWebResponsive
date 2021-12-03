@@ -1,0 +1,37 @@
+.contacto {
+    height: 100px;
+    background-color: orange;
+    @include movil {
+        height: 50px;
+    }
+}
+
+.contacto_ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+
+    @include movil {
+        height: 50px;
+    }
+
+    .contacto_ul_li {
+        padding: 1%;
+        background-color: $color-terciario;
+        border-radius: 25%;
+        border: 5px solid black;
+        font-size: 90%;
+        margin-right: 4.5%;
+        color: white;
+    }
+    
+}
+
+.instagram {
+    width: 70px;
+
+    @include movil {
+        width: 30px;
+    }
+}
